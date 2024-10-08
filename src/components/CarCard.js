@@ -1,4 +1,3 @@
-// src/components/CarCard.js
 import React from "react";
 import styled from "styled-components";
 
@@ -16,8 +15,8 @@ const Card = styled.div`
 
 const Image = styled.img`
   width: 100%; 
-  height: auto; /* Permite que la altura sea automática */
-  object-fit: contain; /* Asegura que toda la imagen se vea sin cortes */
+  height: auto; 
+  object-fit: contain; 
 `;
 
 const CardContent = styled.div`

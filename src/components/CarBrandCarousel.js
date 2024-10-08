@@ -1,4 +1,3 @@
-// src/components/CarBrandCarousel.js
 import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
@@ -12,15 +11,15 @@ const CarouselContainer = styled.div`
 `;
 
 const BrandItem = styled.div`
-  text-align: center; /* Centrar logo y nombre horizontalmente */
+  text-align: center;
   padding: 1rem;
 `;
 
 const BrandLogo = styled.img`
-  width: 100px; /* Ancho fijo */
-  height: 100px; /* Alto fijo */
-  object-fit: contain; /* Mantiene la relación de aspecto sin recortar */
-  margin: 0 auto 0.5rem auto; /* Centrar horizontalmente con margin auto */
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain; 
+  margin: 0 auto 0.5rem auto;
 `;
 
 

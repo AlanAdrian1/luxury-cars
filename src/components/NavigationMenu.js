@@ -1,7 +1,6 @@
-// src/components/NavigationMenu.js
 import React, { useState } from "react";
 import styled from "styled-components";
-import { FaBars } from "react-icons/fa"; // Ícono de menú
+import { FaBars } from "react-icons/fa"; 
 
 const ButtonContainer = styled.div`
   position: fixed;

@@ -1,4 +1,3 @@
-// src/App.js
 import React from "react";
 import styled from "styled-components";
 import CarGrid from "./components/CarGrid";
@@ -7,7 +6,7 @@ import CarBrandCarousel from "./components/CarBrandCarousel";
 import UserProfileMenu from "./components/UserProfileMenu";
 import NavigationMenu from "./components/NavigationMenu";
 import WelcomeMessage from "./components/WelcomeMessage";
-import Footer from "./components/Footer";  // Importar el Footer
+import Footer from "./components/Footer";
 
 const cars = [
   {
@@ -87,7 +86,7 @@ const App = () => {
       <WelcomeMessage>Welcome, Alan!</WelcomeMessage>
       <CarBrandCarousel />
       <CarGrid cars={cars} />
-      <Footer /> {/* Agregamos el Footer */}
+      <Footer /> {}
     </Container>
   );
 };

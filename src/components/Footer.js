@@ -1,4 +1,3 @@
-// src/components/Footer.js
 import React from "react";
 import styled from "styled-components";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
@@ -12,7 +11,7 @@ const FooterContainer = styled.footer`
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin-top: 2rem; /* Añadir espacio entre los componentes de la página y el footer */
+  margin-top: 2rem;
 `;
 
 const SocialIcons = styled.div`

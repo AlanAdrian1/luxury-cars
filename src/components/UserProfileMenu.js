@@ -1,4 +1,3 @@
-// src/components/UserProfileMenu.js
 import React, { useState } from "react";
 import styled from "styled-components";
 
@@ -11,13 +10,13 @@ const ProfileButton = styled.button`
   color: #333;
 
   &:hover {
-    color: #007bff; /* Cambia el color al pasar el cursor */
+    color: #007bff;
   }
 `;
 
 const Menu = styled.div`
   position: absolute;
-  top: 40px; /* Ajusta la posición vertical */
+  top: 40px; 
   right: 0;
   background: white;
   border: 1px solid #ddd;
@@ -31,7 +30,7 @@ const MenuItem = styled.div`
   cursor: pointer;
 
   &:hover {
-    background: #f0f0f0; /* Cambia el fondo al pasar el cursor */
+    background: #f0f0f0;
   }
 `;
 
